@@ -59,7 +59,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: mirzahania/MY-APP:${{ github.sha }}
+          tags: mirzahania/my-app:${{ github.sha }}
 
   #  4. Deploy to EC2
   deploy:
